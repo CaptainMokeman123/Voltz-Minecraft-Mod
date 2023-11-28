@@ -38,6 +38,6 @@ public class ModItems {
     public static final RegistryObject<Item> URANIUM_ORE_ITEM = ITEMS.register("blockOreUranium",
             () -> new BlockItem(URANIUM_ORE.get(), new Item.Properties()));
     public static final RegistryObject<Item>LEAD_ORE_ITEM = ITEMS.register("meterlergical_coal_ore",
-            () -> new BlockItem(METCOAL.get(), new Item.Properties()));
+            () -> new BlockItem(LEADORE.get(), new Item.Properties()));
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }

@@ -24,9 +24,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("blockOreCopper",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
 
-    public static final RegistryObject<Block> URANIUM_ORE = BLOCKS.register("blockOreLead",
+    public static final RegistryObject<Block> LEADORE = BLOCKS.register("blockOreLead",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
 
+    public static final RegistryObject<Block> URANIUM_ORE = BLOCKS.register("blockOreUran",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
         public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);}
 
 
