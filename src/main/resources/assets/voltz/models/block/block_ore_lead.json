@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "voltz:block/blockOreCopper"
+    "all": "voltz:block/block_ore_lead"
 }
 }

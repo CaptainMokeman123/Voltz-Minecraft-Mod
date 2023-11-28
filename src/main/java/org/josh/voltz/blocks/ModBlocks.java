@@ -18,16 +18,16 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> METCOAL = BLOCKS.register("metallurgical_coal_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
-    public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("blockOreTin",
+    public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("block_ore_tin",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)));
 
-    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("blockOreCopper",
+    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("block_ore_copper",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
 
-    public static final RegistryObject<Block> LEADORE = BLOCKS.register("blockOreLead",
+    public static final RegistryObject<Block> LEADORE = BLOCKS.register("block_ore_lead",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
 
-    public static final RegistryObject<Block> URANIUM_ORE = BLOCKS.register("blockOreUran",
+    public static final RegistryObject<Block> URANIUM_ORE = BLOCKS.register("block_ore_uran",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).mapColor(MapColor.STONE)));
         public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);}
 

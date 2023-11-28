@@ -25,6 +25,10 @@ public class ModCreativeModeTabs {
                                             output.accept(METERLERGICAL_COAL_ORE_ITEM.get());
                                             output.accept(COKE.get());
                                             output.accept(STEEL_INGOT.get());
+                                            output.accept(TIN_ORE_ITEM.get());
+                                            output.accept(URANIUM_ORE_ITEM.get());
+                                            output.accept(LEAD_ORE_ITEM.get());
+                                            output.accept(COPPER_ORE_ITEM.get());
 
 
 
